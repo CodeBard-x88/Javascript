@@ -19,7 +19,7 @@ function getlength(str){
 // async function always returns a promise by default
 
 //await keyword is always used inside an asynchronouse function.
-//await halts the execution of all the async functions running in paralled, until the promise is not fulfilled
+//await halts the execution of all the current async function running, until the promise is not fulfilled
 
 //instead of using then and catch to get the results from promises, async and await can be used
 
