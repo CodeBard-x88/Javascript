@@ -7,7 +7,6 @@
     <title>Currency Converter using fetch API</title>
 </head>
 <body>
-    <script src="currencyConverter.js"></script>
 
     <div class="container">
         <div class="name">
@@ -15,7 +14,7 @@
         </div>
 
         <div class="form">
-            <form action="">
+            <form>
                 <div class="enter">
                     <p>Enter Amount:</p>
                     <input type="text" value="" placeholder="e.g 100">
@@ -24,7 +23,7 @@
                     <div class="from">
                         <p>From:</p>
                         <img src="https://flagsapi.com/BE/shiny/64.png" alt="Country flag">
-                        <select name="from" class="from_dd">
+                        <select>
                             <option value="USD">USD</option>
                             <option value="INR">INR</option>
                             <option value="PKR">PKR</option>
@@ -34,7 +33,7 @@
                     <div class="to">
                         <p>To:</p>
                         <img src="https://flagsapi.com/US/shiny/64.png" alt="Country flag">
-                        <select name="from" class="to_dd">
+                        <select>
                             <option value="USD">USD</option>
                             <option value="INR">INR</option>
                             <option value="PKR">PKR</option>
@@ -47,9 +46,10 @@
         <div class="btn">
             <button>Get Exchange Rate</button>
         </div>
-        <div class="result">
-
-        </div>
+        <div class="result"></div>
     </div>
+    <script src="codes.js"></script>
+    <script src="currencyConverter.js"></script>
+
 </body>
 </html>
