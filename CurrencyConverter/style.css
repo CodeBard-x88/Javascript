@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'SieraLenone';
+    src: url(fonts/SieraLeone.ttf) format('truetype');
+}
+
+*{
+    margin: 5;
+    padding: 0;
+    text-align: center;
+    font-family: SieraLenone;
+}
+
+body{
+    background-color: #181818 ;
+    color: white;
+}
+
+h1{
+    letter-spacing: 3px;
+}
+
+.btn{
+    margin-top: 15px;
+}
+
+.dropdowns{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
